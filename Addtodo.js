@@ -40,7 +40,7 @@ function Addtodo({addTodo}) {
   </Form.Group>
 
   <Form.Group className="mb-3" controlId="formBasicPassword">
-    <Form.Label style = {labelStyle}>Description</Form.Label>
+    <Form.Label style = {labelStyle}>Description Here</Form.Label>
     <Form.Control style ={inputStyle} type="text" placeholder="Description" onChange={(e)=>{setDesc(e.target.value)}}/>
   </Form.Group>
 
